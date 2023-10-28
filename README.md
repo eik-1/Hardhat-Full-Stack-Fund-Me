@@ -53,7 +53,7 @@ Make sure you have the following installed:
 1. You'll need to open up a second terminal and run:
 
 ```
-git clone https://https://github.com/eik-1/Hardhat-Fund-Me
+git clone https://github.com/eik-1/Hardhat-Fund-Me
 cd Hardhat-Fund-Me
 yarn
 yarn hardhat node
