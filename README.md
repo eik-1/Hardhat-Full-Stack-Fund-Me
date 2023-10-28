@@ -23,7 +23,7 @@ This is a minimalistic example what you can find in the [metamask docs](https://
 1. Clone the repo
 
 ```
-git clone https://https://github.com/eik-1/Hardhat-Full-Stack-Fund-Me
+git clone https://github.com/eik-1/Hardhat-Full-Stack-Fund-Me
 cd Hardhat-Full-Stack-Fund-Me
 ```
 
