@@ -1,22 +1,22 @@
 # Hardhat-Full-Stack-Fund-Me
+
 This is a fullstack project developed using hardhat and solidity. This project will take funds from user and store them in a wallet.
 This is a minimalistic example what you can find in the [metamask docs](https://docs.metamask.io/guide/create-dapp.html#basic-action-part-1).
 
 # Requirements
 
-- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-  - You'll know you've installed it right if you can run:
-    - `git --version`
-- [Metamask](https://metamask.io/)
-  - This is a browser extension that lets you interact with the blockchain.
-- [Nodejs](https://nodejs.org/en/)
-  - You'll know you've installed nodejs right if you can run:
-    - `node --version` And get an ouput like: `vx.x.x`
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
-  - You'll know you've installed yarn right if you can run:
-    - `yarn --version` And get an output like: `x.x.x`
-    - You might need to install it with npm
-
+-   [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+    -   You'll know you've installed it right if you can run:
+        -   `git --version`
+-   [Metamask](https://metamask.io/)
+    -   This is a browser extension that lets you interact with the blockchain.
+-   [Nodejs](https://nodejs.org/en/)
+    -   You'll know you've installed nodejs right if you can run:
+        -   `node --version` And get an ouput like: `vx.x.x`
+-   [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
+    -   You'll know you've installed yarn right if you can run:
+        -   `yarn --version` And get an output like: `x.x.x`
+        -   You might need to install it with npm
 
 # Quickstart
 
@@ -34,6 +34,7 @@ You can usually just double click the file to "run it in the browser". Or you ca
 Optionally:
 
 If you'd like to run with prettier formatting, or don't have a way to run your file in the browser, run:
+
 ```
 yarn
 yarn http-server
@@ -64,7 +65,7 @@ This will deploy a sample contract and start a local hardhat blockchain.
 
 In your `constants.js` file, update the variable `contractAddress` with the address of the deployed "FundMe" contract. You'll see it near the top of the hardhat output.
 
-3. Connect your [metamask](https://metamask.io/) to your local hardhat blockchain.
+3. Connect your [metamask](https://metamask.io/) to your local hardhat blockchain or just switch to Sepolia testnet.
 
 > **PLEASE USE A METAMASK ACCOUNT THAT ISNT ASSOCIATED WITH ANY REAL MONEY.**
 > I usually use a few different browser profiles to separate my metamasks easily.
@@ -77,4 +78,4 @@ Additionally, add your localhost with chainid 31337 to your metamask.
 
 # Thank you!
 
-[<img height="32" width="32" src="https://cdn.simpleicons.org/instagram/dcd0ff"/>](https://www.instagram.com/eik.crimes/)     [<img height="32" width="32" src="https://cdn.simpleicons.org/twitter/dcd0ff"/>](https://twitter.com/sarthakrawatbiz)     [<img height="32" width="32" src="https://cdn.simpleicons.org/linkedin/dcd0ff"/>](https://www.linkedin.com/in/sarthak-raw-eth/)
+[<img height="32" width="32" src="https://cdn.simpleicons.org/instagram/dcd0ff"/>](https://www.instagram.com/eik.crimes/) [<img height="32" width="32" src="https://cdn.simpleicons.org/twitter/dcd0ff"/>](https://twitter.com/sarthakrawatbiz) [<img height="32" width="32" src="https://cdn.simpleicons.org/linkedin/dcd0ff"/>](https://www.linkedin.com/in/sarthak-raw-eth/)
