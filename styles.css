@@ -21,13 +21,14 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     display: flex;
-    padding: 50px 35px;
+    padding: 40px 35px;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
     gap: 20px;
     min-height: 60vh;
+    height:478px;
 }
 
 .logo {
@@ -149,7 +150,9 @@ input {
 
 .amount-input {
     display: flex;
+    flex-flow:row wrap;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -167,5 +170,39 @@ input {
     .connect-button {
         font-size: 24px;
         min-width: 196px;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        width: 70%;
+        max-width: 90%; 
+        padding: 20px 15px; 
+    }
+
+    .logo h2 {
+        font-size: 64px; 
+        line-height: 64px; 
+    }
+
+    .logo h5 {
+        font-size: 24px; 
+    }
+
+    .connect-button {
+        font-size: 16px; 
+        min-width: 100px; 
+    }
+
+    .amount-input {
+        gap: 15px;
+        
+    }
+
+    .action-buttons {
+        gap: 15px;
+    }
+    input{
+        height:15px;
+        width:160px;
     }
 }
