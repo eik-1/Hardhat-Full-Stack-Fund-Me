@@ -2,6 +2,7 @@
 
 This is a fullstack project developed using hardhat and solidity. This project will take funds from user and store them in a wallet.
 This is a minimalistic example what you can find in the [metamask docs](https://docs.metamask.io/guide/create-dapp.html#basic-action-part-1).
+> Full project deployed on web -> [FUND ME](https://fund-me-j4s8.onrender.com/)
 
 # Requirements
 
